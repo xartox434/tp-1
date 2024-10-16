@@ -1,11 +1,10 @@
 table{
 
-    width: 800px;
+    width: 850px;
     margin: auto;
     height: 600px;
     background-color: white;
-  border-collapse: collapse;
-  table-layout: fixed;
+    border-collapse: collapse;
 }
 
 body{
@@ -21,12 +20,10 @@ body{
 }
 
 .afficheFilm{
-width: 475px;
-height: 900px;
-    max-width: 1000px;
-   max-height: 900px;
-   float: left;
-
+width: 500px;
+    height :850px;
+    max-width: 500px;
+   object-fit: cover;
 }
 
 .LeTitre{
@@ -45,9 +42,8 @@ height: 900px;
 
     text-align: left;
     background-color: rgb(255, 0, 0);
-    color: black;
-    max-height: 20px;
-    max-width: 20px;
+    color: black;;
+    width: 2000px;
 }
 
 table tr td {
@@ -64,10 +60,10 @@ table tr td {
    }
 
    tr,td,th{
-    max-width: 20px;
-    max-height: 20px;
     border-collapse: collapse;;
-  table-layout: fixed;
+    table-layout: fixed;
+
+  
    }
 
    .nomacteur{
@@ -76,8 +72,11 @@ table tr td {
     font-style:italic;
     font-weight: bolder;
     text-align: left;
+    text-align: center;
     margin: auto;
     color: red;
+    padding-top: 20px;
+    
 
    }
 
