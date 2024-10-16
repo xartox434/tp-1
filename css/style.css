@@ -1,0 +1,88 @@
+table{
+
+    width: 800px;
+    margin: auto;
+    height: 600px;
+    background-color: white;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+body{
+    background: linear-gradient(rgb(0, 0, 0),rgb(255, 0, 0));
+}
+
+.title{
+
+    background-color: black;
+    color: white;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.afficheFilm{
+width: 475px;
+height: 900px;
+    max-width: 1000px;
+   max-height: 900px;
+   float: left;
+
+}
+
+.LeTitre{
+
+    border: 2px solid black;
+    background-color:  black;
+    color: white;
+
+}
+
+.soustitre{
+
+    text-align: left;
+}
+.Distribution{
+
+    text-align: left;
+    background-color: rgb(255, 0, 0);
+    color: black;
+    max-height: 20px;
+    max-width: 20px;
+}
+
+table tr td {
+    vertical-align: top;
+}
+.photoActeur {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+   }
+
+   tr,td,th{
+    max-width: 20px;
+    max-height: 20px;
+    border-collapse: collapse;;
+  table-layout: fixed;
+   }
+
+   .nomacteur{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
+    font-weight: bolder;
+    text-align: left;
+    margin: auto;
+    color: red;
+
+   }
+
+   .role{
+ font-weight: lighter;
+ color: black;
+
+   }
